@@ -1,0 +1,9 @@
+:root {
+    --bg: #0B1120;
+    --cards: #111827;
+    --texts: #E5E7EB;
+    --secondary-texts:#E5E7EB;
+    --emphasis: #DC2626;
+    --hover: #EF4444;
+    --glow: rgba(220, 38, 38, 0.4);
+}

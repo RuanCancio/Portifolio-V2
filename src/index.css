@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #0B1120;
+}
+
+body {
+    background: radial-gradient(circle at top, #0b132b, #020617);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
