@@ -5,6 +5,7 @@
 
 :root {
     --bg: radial-gradient(circle at top, #0b132b, #020617);
+    --bg-2: radial-gradient(circle at top, #0b132b, #020617);
     --cards: #111827;
     --texts: #E5E7EB;
     --secondary-texts: #E5E7EB;
@@ -14,13 +15,13 @@
     --font-padrao: Roboto_Condensed;
 }
 
+/*Versão Mobile*/
 @media screen and (max-width:768px) {
 
     .navbar {
         width: 13rem;
         position: fixed;
-
-
+        z-index: 1000;
 
         & img {
             width: 3rem;
@@ -51,6 +52,7 @@
         gap: 1.5rem;
         border: 2px solid rgba(255, 255, 255, 0.342);
         padding-bottom: 5rem;
+        transition: 0.5s ease;
 
         & a {
             color: var(--texts);
@@ -58,23 +60,27 @@
             font-family: var(--font-padrao);
             font-size: 1.2rem;
             text-decoration: none;
+            transition: 0.5s ease;
         }
 
         & a:hover {
             border-bottom: 1px solid var(--secondary-texts);
+
         }
     }
 
     .home {
+        height: 100vh;
         padding-top: 5rem;
+        background-image: radial-gradient(circle at top, #0b132b, #020617);
 
 
-        & .ruan{
+        & .ruan {
             display: flex;
             width: 300px;
             border-radius: 100%;
             margin: auto;
-            border: 4px solid var(--glow);
+            border: 4px solid rgba(24, 9, 109, 0.363);
             outline: 2px solid rgba(255, 255, 255, 0.534);
         }
     }
@@ -83,7 +89,7 @@
         color: var(--secondary-texts);
         font-family: var(--font-padrao);
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 20%;
     }
 
     .icons_redes {
@@ -93,6 +99,12 @@
 
         & img {
             width: 2rem;
+            transition: 0.5s ease;
+        }
+
+        & img:hover {
+            padding-bottom: 4px;
+            border-bottom: 1px solid white;
         }
     }
 
@@ -109,11 +121,59 @@
             background-color: white;
             text-decoration: none;
         }
+
         & a:hover {
             border: 1px solid var(--hover);
             color: rgb(14, 13, 13);
             background-color: rgba(255, 255, 255, 0.664);
         }
+    }
+
+    .about_me {
+
+        color: white;
+        background-image: radial-gradient(circle at top, gray, #020617);
+        background-attachment: fixed;
+
+        & .about_itens {
+            height: 100vh;
+            padding-top: 20%;
+
+            & h2 {
+                text-align: center;
+                font-size: 2rem;
+            }
+
+            & p {
+                margin: 1rem;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+
+    }
+
+    .sec_tec {
+        background-image: radial-gradient(circle at top, #0f1938, #020617);
+        height: 100vh;
+
+        & .sec_items {
+
+            padding-top: 30%;
+            text-align: center;
+
+            & h2 {
+                font-size: 2.5rem;
+            }
+        }
+
+        & .tec_icons {
+            margin-top: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
     }
 
 }

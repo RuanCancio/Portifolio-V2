@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Roboto_Condensed;
+    src: url(../assets/Roboto_Condensed-Black.ttf);
+}
+
+:root {
+    --bg: radial-gradient(circle at top, #0b132b, #020617);
+    --bg-2: radial-gradient(circle at top, #0b132b, #020617);
+    --cards: #111827;
+    --texts: #E5E7EB;
+    --secondary-texts: #E5E7EB;
+    --emphasis: #111827;
+    --hover: #EF4444;
+    --glow: rgba(220, 38, 38, 0.4);
+    --font-padrao: Roboto_Condensed;
+}
+
+@media screen and (max-width:768px) {
+
+    .TypingText {
+         color: white;
+         font-size: 2rem;
+    }
+}

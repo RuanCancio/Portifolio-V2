@@ -1,0 +1,19 @@
+[
+    {
+        "icon": "../../public/assets/React.svg",
+        "name": "React",
+        "desc": "Criação de interfaces dinâmicas e componentes reutilizáveis"
+    },
+
+    {
+        "icon": "../../public/assets/JavaScript.svg",
+        "name": "JavaScript",
+        "desc": "Lógica e interatividade para aplicações web modernas"
+    },
+
+    {
+        "icon": "../../public/assets/Html.svg",
+        "name": "HTML5",
+        "desc": "Estrutura semântica e acessível para páginas web"
+    }
+]
