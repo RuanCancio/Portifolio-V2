@@ -12,8 +12,42 @@
     },
 
     {
+        "icon": "../../public/assets/Nodejs.svg",
+        "name": "Node.js",
+        "desc": "Execução de JavaScript no backend"
+    },
+
+    {
         "icon": "../../public/assets/Html.svg",
         "name": "HTML5",
         "desc": "Estrutura semântica e acessível para páginas web"
+    },
+
+    {
+        "icon": "../../public/assets/Css3.svg",
+        "name": "Css3",
+        "desc": "Estilização moderna e layouts responsivos"
+    },
+    {
+        "icon": "../../public/assets/TailWind-Css.svg",
+        "name": "Tailwind CSS",
+        "desc": "Estilização rápida com classes utilitárias"
+    },
+    {
+        "icon": "../../public/assets/Git.svg",
+        "name": "Git",
+        "desc": "Versionamento e organização do código"
+    },
+    {
+        "icon": "../../public/assets/Github.svg",
+        "name": "Github",
+        "desc": "Hospedagem e colaboração em projetos"
+    },
+
+     {
+        "icon": "../../public/assets/Vite.svg",
+        "name": "Vite",
+        "desc": "Ambiente de desenvolvimento rápido e moderno."
     }
+    
 ]

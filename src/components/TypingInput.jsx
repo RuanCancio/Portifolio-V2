@@ -26,6 +26,7 @@ const TypingInput = () => {
       {done ? "Desenvolvedor Full Stack" : name}
       {!done && <Cursor cursorStyle="|" />}
     </h1>
+    <br />
     <h2>
         {pronto ? "Transformando ideias em código" : desc}
         {!pronto && <Cursor cursorStyle="|" />}

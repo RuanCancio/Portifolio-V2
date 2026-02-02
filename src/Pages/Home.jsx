@@ -53,7 +53,9 @@ const Home = () => {
                         />
                     </section>
                     <section className={Styles.tec_icons}>
-                      <TecIcon/>
+                        <div className={Styles.tec_center}>
+                          <TecIcon/>
+                        </div>
                     </section>
                 </section>
             </section>
