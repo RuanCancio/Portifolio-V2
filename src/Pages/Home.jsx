@@ -44,20 +44,16 @@ const Home = () => {
 
                     </div>
                 </section>
-                <section id="tecnologias" className={Styles.sec_tec}>
-                    <section className={Styles.sec_items}>
-                        <TypingText
-                            text="Minhas Tecnologias"
-                            loop={1}
-                            speed={90}
-                        />
-                    </section>
-                    <section className={Styles.tec_icons}>
-                        <div className={Styles.tec_center}>
-                          <TecIcon/>
-                        </div>
-                    </section>
+            </section>
+            <section id="tecnologias" className={Styles.sec_tec}>
+                <section className={Styles.tec_icons}>
+                    <div className={Styles.tec_center}>
+                        <TecIcon />
+                    </div>
                 </section>
+            </section>
+            <section id="Projetos" className={Styles.my_projects}>
+
             </section>
         </>
 

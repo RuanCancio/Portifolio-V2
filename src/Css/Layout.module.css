@@ -128,15 +128,15 @@
     }
 }
 
-.about_me {
-
+section.about_me {
     color: white;
     background-image: radial-gradient(circle at top, gray, #020617);
     background-attachment: fixed;
+    height: 100vh;
 
     & .about_itens {
-        height: 100vh;
         padding-top: 20%;
+
 
         & h2 {
             text-align: center;
@@ -144,8 +144,9 @@
         }
 
         & p {
-            margin: 1rem;
+            margin: 1rem 3rem;
             font-family: Arial, Helvetica, sans-serif;
+            text-indent: 1rem;
         }
     }
 
@@ -154,10 +155,10 @@
 .sec_tec {
     background-image: radial-gradient(circle at top, #0f1938, #020617);
     height: 100vh;
+    color: white;
 
     & .sec_items {
-
-        padding-top: 30%;
+        padding-top: 12%;
         text-align: center;
 
         & h2 {
@@ -165,14 +166,21 @@
         }
     }
 
-   & section.tec_icons {
-       display: flex;
-       justify-content: center;
-       padding: 30px;
+    & section.tec_icons {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
 
-       & .tec_center {
-        width: 200px;
-       }
+
+        & .tec_center {
+            width: 200px;
+        }
     }
 
+}
+
+ .my_projects {
+    height: 100vh;
+    background-image: radial-gradient(circle at top, gray, #020617);
+    background-attachment: fixed;
 }
