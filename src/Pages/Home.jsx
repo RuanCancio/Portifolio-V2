@@ -6,6 +6,7 @@ import InstaIcon from "../assets/Instagram.svg"
 import LinkedIcon from "../assets/Linkedin.svg"
 import TypingText from "../components/TypingText.jsx"
 import TecIcon from "../components/TechIcon.jsx"
+import Projects from "../components/Projects.jsx"
 
 const Home = () => {
 
@@ -53,7 +54,13 @@ const Home = () => {
                 </section>
             </section>
             <section id="Projetos" className={Styles.my_projects}>
-
+                <TypingText
+                    text="Meus Projetos"
+                    loop={1}
+                    speed={90} />
+                    <section>
+                        <Projects/>
+                    </section>
             </section>
         </>
 

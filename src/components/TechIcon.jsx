@@ -1,10 +1,11 @@
-import { useState, useEffect, use } from "react"
+import { useState, useEffect } from "react"
 import Styles from "../Css/TechIcon.module.css"
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
 import { Autoplay, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import TypingText from "./TypingText"
 
 
 const TechIcon = () => {
@@ -41,7 +42,10 @@ const TechIcon = () => {
         <div className={Styles.swiper_icons}>
 
             <div>
-                <h1>Core Stack</h1>
+                <TypingText
+                    text="Core Stack"
+                    loop={1}
+                    speed={90} />
                 <p>Utilizadas no dia a dia:</p>
                 <Swiper
                     modules={[Autoplay, Pagination]}
@@ -74,7 +78,10 @@ const TechIcon = () => {
 
 
             <div>
-                <h1>Complemento</h1>
+                <TypingText
+                    text="Complemento"
+                    loop={1}
+                    speed={90} />
                 <p>Em desenvolvimento:</p>
                 <Swiper
                     modules={[Autoplay, Pagination]}

@@ -6,6 +6,9 @@
     --bg: #0B1120;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 html,
 body {

@@ -15,7 +15,6 @@
     --font-padrao: Roboto_Condensed;
 }
 
-
 .navbar {
     width: 13rem;
     position: fixed;
@@ -183,4 +182,10 @@ section.about_me {
     height: 100vh;
     background-image: radial-gradient(circle at top, gray, #020617);
     background-attachment: fixed;
+
+    & h2 {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 15%;
+    }
 }

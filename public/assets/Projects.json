@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/projects/cadUsuarios.png",
+    "title": "Cadastro de Usuarios",
+    "description": "Cadastro de usuários com operações CRUD e interface simples e funcional.",
+    "category": "front-end",
+    "stack": ["React", "Css3", "Vite", "JavaScript"],
+    "github": "https://github.com/RuanCancio/Cadastros-de-Usuarios",
+    "demo": "https://cadastros-de-usuario.vercel.app/",
+    "icon": "/assets/projects/Github.svg",
+    "icon_link": "/assets/projects/Link.svg"
+  },
+  {
+    "id": 1,
+    "image": "/assets/projects/toDo.png",
+    "title": "To-Do List",
+    "description": "Gerenciador de tarefas para organizar atividades do dia a dia.",
+    "category": "front-end",
+    "stack": ["React", "Css3", "Vite", "JavaScript"],
+    "github": "https://github.com/RuanCancio/To-Do-List",
+    "demo": "https://to-do-list-two-iota-27.vercel.app",
+    "icon": "/assets/projects/Github.svg",
+    "icon_link": "/assets/projects/Link.svg"
+  }
+]
