@@ -19,10 +19,8 @@
 }
 
 div.swiper_icons {
-    margin-top: 10%;
 
     & div {
-        margin-bottom: 10px;
 
         & h2 {
             margin-bottom: 4px;

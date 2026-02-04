@@ -34,5 +34,17 @@
     "demo": "https://verificador-cep-react.vercel.app",
     "icon": "/assets/projects/Github.svg",
     "icon_link": "/assets/projects/Link.svg"
+  },
+   {
+    "id": 3,
+    "image": "/assets/projects/Huddle.png",
+    "title": "Huddle landing page",
+    "description": "Introdução ao site Huddle",
+    "category": "ui",
+    "stack": ["HTML", "CSS"],
+    "github": "https://github.com/RuanCancio/Huddle-landing-page-with-a-single-introductory-section?tab=readme-ov-file",
+    "demo": "https://ruancancio.github.io/Huddle-landing-page-with-a-single-introductory-section/",
+    "icon": "/assets/projects/Github.svg",
+    "icon_link": "/assets/projects/Link.svg"
   }
 ]

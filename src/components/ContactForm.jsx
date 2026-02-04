@@ -1,5 +1,6 @@
 import Styles from '../Css/ContactForm.module.css'
 import { useForm, ValidationError } from '@formspree/react';
+import TypingText from './TypingText';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mbdknzvy");
@@ -9,12 +10,17 @@ function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className={Styles.form}>
       <label htmlFor="email">
-        Email Address:
+        <TypingText
+        text="Escreva para mim:"
+        loop={1}
+        speed={90}
+        />
       </label>
       <input
         id="email"
         type="email" 
         name="email"
+        placeholder='Email@gmail.com'
       />
       <ValidationError 
         prefix="Email" 
@@ -24,6 +30,7 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
+        placeholder='Escreva...'
       />
       <ValidationError 
         prefix="Message" 

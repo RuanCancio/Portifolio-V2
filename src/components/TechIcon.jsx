@@ -57,11 +57,6 @@ const TechIcon = () => {
                         delay: 0,
                         disableOnInteraction: false,
                     }}
-                    breakpoints={{
-                        320: { slidesPerView: 1 },
-                        768: { slidesPerView: 2 },
-                        1080: {slidesPerView: 3},
-                    }}
                 >
                     {Languages.map((item, key) => (
                         <SwiperSlide key={key}>
@@ -92,11 +87,6 @@ const TechIcon = () => {
                     autoplay={{
                         delay: 0,
                         disableOnInteraction: false,
-                    }}
-                    breakpoints={{
-                        320: { slidesPerView: 1 },
-                        768: { slidesPerView: 2 },
-                        1080: {slidesPerView: 3},
                     }}
                 >
                     {framework.map((item, key) => (

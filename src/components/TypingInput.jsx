@@ -7,7 +7,7 @@ const TypingInput = () => {
   const [pronto, setPronto] = useState(false)
 
   const [name] = useTypewriter({
-    words: ["Desenvolvedor Full Stack"],
+    words: ["Desenvolvedor Front-end"],
     loop: 1,
     typeSpeed: 80,
     onLoopDone: () => setDone(true)
@@ -23,7 +23,7 @@ const TypingInput = () => {
   return (
     <div className={Styles.typing_input}>
     <h1>
-      {done ? "Desenvolvedor Full Stack" : name}
+      {done ? "Desenvolvedor Front-end" : name}
       {!done && <Cursor cursorStyle="|" />}
     </h1>
     <br />

@@ -70,10 +70,6 @@ const Home = () => {
             <Reveal>
                 <section id="contact" className={Styles.Contact_me}>
                     <TypingText
-                        text="Meus Contatos"
-                        loop={1}
-                        speed={90} />
-                    <TypingText
                         text="Vamos tirar sua ideia do papel? Escolha sua rede favorita."
                         loop={1}
                         speed={90} />
