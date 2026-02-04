@@ -34,30 +34,30 @@
 }
 
 .fade_prev {
-    animation: fadeSlidePrev 1s ease;
+    animation: fadeSlidePrev 2s ease;
 }
 
 @keyframes fadeSlidePrev {
     from {
-        transform: translateX(-20%);
+        opacity: 0;
     }
 
     to {
-        transform: translateX(0);
+        opacity: 1;
     }
 }
 
 .fade_next {
-    animation: fadeSlideNext 1s ease;
+    animation: fadeSlideNext 2s ease;
 }
 
 @keyframes fadeSlideNext {
     from {
-        transform: translateX(20%);
+        opacity: 0;
     }
 
     to {
-        transform: translateX(0);
+       opacity: 1;
     }
 }
 
