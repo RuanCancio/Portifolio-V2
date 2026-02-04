@@ -69,7 +69,7 @@
 .home {
     height: 100vh;
     padding-top: 5rem;
-    background-image: radial-gradient(circle at top, #0b132b, #020617);
+    background-image: radial-gradient(circle at top, #1b2b5a, #020617);
 
 
     & .ruan {
@@ -152,7 +152,7 @@ section.about_me {
 }
 
 .sec_tec {
-    background-image: radial-gradient(circle at top, #0f1938, #020617);
+    background-image: radial-gradient(circle at top, #213369, #020617);
     height: 100vh;
     color: white;
 
@@ -178,7 +178,7 @@ section.about_me {
 
 }
 
- .my_projects {
+.my_projects {
     height: 100vh;
     background-image: radial-gradient(circle at top, gray, #020617);
     background-attachment: fixed;
@@ -188,4 +188,29 @@ section.about_me {
         text-align: center;
         padding-top: 15%;
     }
+}
+
+.Contact_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    background-image: radial-gradient(circle at top, #1c2d5e, #020617);
+
+    & h2 {
+        color: white;
+        font-size: 2rem;
+        padding: 10% 0px;
+        text-align: center;
+    }
+
+    & .invite_me {
+        background-image: radial-gradient(circle at top, #7516c4, #020617);
+        border: 2px solid rgba(245, 245, 220, 0.13);
+        width: 80%;
+        height: 24%;
+        border-radius: 15px;
+    }
+
 }

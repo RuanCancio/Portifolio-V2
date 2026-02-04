@@ -1,0 +1,39 @@
+& .contact_align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    & .contact_icon {
+        display: flex;
+        background-color: rgb(106, 23, 201);
+        width: 18rem;
+        padding: 10px;
+        border-radius: 15px;
+        border: 2px solid rgba(81, 176, 253, 0.322);
+        transition: 0.5s ease;
+        gap: 7px;
+
+        & h1 {
+            color: white;
+        }
+
+        & h2 {
+            font-size: 1.3rem;
+        }
+
+        & img {
+            width: 4rem;
+        }
+    }
+}
+
+.contact_icon:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgba(31, 136, 255, 0.596);
+}
+
+ a {
+    text-decoration: none;
+}

@@ -1,11 +1,11 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "image": "/assets/projects/cadUsuarios.png",
     "title": "Cadastro de Usuarios",
     "description": "Cadastro de usuários com operações CRUD e interface simples e funcional.",
     "category": "front-end",
-    "stack": ["React", "Css3", "Vite", "JavaScript"],
+    "stack": ["React", "CSS", "Vite", "JavaScript"],
     "github": "https://github.com/RuanCancio/Cadastros-de-Usuarios",
     "demo": "https://cadastros-de-usuario.vercel.app/",
     "icon": "/assets/projects/Github.svg",
@@ -17,9 +17,21 @@
     "title": "To-Do List",
     "description": "Gerenciador de tarefas para organizar atividades do dia a dia.",
     "category": "front-end",
-    "stack": ["React", "Css3", "Vite", "JavaScript"],
+    "stack": ["React", "CSS", "Vite", "JavaScript"],
     "github": "https://github.com/RuanCancio/To-Do-List",
     "demo": "https://to-do-list-two-iota-27.vercel.app",
+    "icon": "/assets/projects/Github.svg",
+    "icon_link": "/assets/projects/Link.svg"
+  },
+  {
+    "id": 2,
+    "image": "/assets/projects/verCep.png",
+    "title": "Verificador de CEP",
+    "description": "Consulta de endereços por CEP usando integração com API.",
+    "category": "front-end",
+    "stack": ["React", "CSS", "JavaScript"],
+    "github": "https://github.com/RuanCancio/verificador-cep-react",
+    "demo": "https://verificador-cep-react.vercel.app",
     "icon": "/assets/projects/Github.svg",
     "icon_link": "/assets/projects/Link.svg"
   }

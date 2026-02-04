@@ -51,7 +51,7 @@ const TechIcon = () => {
                     modules={[Autoplay, Pagination]}
                     spaceBetween={30}
                     slidesPerView={1}
-                    loop={true}
+                    loop={Languages.length > 3}
                     speed={3000}
                     autoplay={{
                         delay: 0,
@@ -87,7 +87,7 @@ const TechIcon = () => {
                     modules={[Autoplay, Pagination]}
                     spaceBetween={30}
                     slidesPerView={1}
-                    loop={true}
+                    loop={framework.length > 1 }
                     speed={3000}
                     autoplay={{
                         delay: 0,

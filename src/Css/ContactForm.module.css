@@ -1,0 +1,50 @@
+.form {
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+
+    & input {
+        color: white;
+        margin-top: 10px;
+        border: 1px solid rgb(204, 8, 204);
+        padding: 10px;
+        height: 20px;
+        background-color: rgba(214, 13, 214, 0.555);
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+
+    & textarea {
+        margin-top: 1rem;
+        border-radius: 8px;
+        background-color: rgba(214, 13, 214, 0.555);
+        color: white;
+        padding: 10px;
+        width: 12rem;
+        height: 4rem;
+        resize: none;
+
+        & textarea::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+
+    & button {
+        border: 1px solid rgba(204, 8, 204, 0.541);
+        color: rgb(100, 0, 0);
+        width: 7rem;
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+}
+
+.submitForm {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    font-size: 2rem;
+}

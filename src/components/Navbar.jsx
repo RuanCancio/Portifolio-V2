@@ -21,9 +21,9 @@ const Navbar = () => {
                         <li><img src={MenuOpen} alt="menuOpen" onClick={menuBurguer} /></li>
                         <li><Link smooth to="#">Home</Link></li>
                         <li><Link smooth to="#about_me">Sobre</Link></li>
-                        <li><Link smooth to="#tecnologias">Tecnologias</Link></li>
-                        <li><Link smooth to="#Projetos">Projetos</Link></li>
-                        <li><Link smooth to="/contact">Contatos</Link></li>
+                        <li><Link smooth to="#technology">Tecnologias</Link></li>
+                        <li><Link smooth to="#projects">Projetos</Link></li>
+                        <li><Link smooth to="#contact">Contatos</Link></li>
                     </ul>
                 </>
             ) : (<img src={MenuIcon} alt="menu" onClick={menuBurguer} className={Styles.MenuOpen}/>)
