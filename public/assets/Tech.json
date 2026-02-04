@@ -1,51 +1,51 @@
 [
     {
-        "icon": "../../public/assets/Core_Skills/React.svg",
+        "icon": "/assets/Core_Skills/React.svg",
         "name": "React",
         "desc": "Criação de interfaces dinâmicas e componentes reutilizáveis"
     },
     {
-        "icon": "../../public/assets/Core_Skills/JavaScript.svg",
+        "icon": "/assets/Core_Skills/JavaScript.svg",
         "name": "JavaScript",
         "desc": "Lógica e interatividade para aplicações web modernas"
     },
     {
-        "icon": "../../public/assets/Core_Skills/Express.svg",
+        "icon": "/assets/Core_Skills/Express.svg",
         "name": "Express",
         "desc": "Front-end forte com base em back-end"
     },
     {
-        "icon": "../../public/assets/Core_Skills/Html.svg",
+        "icon": "/assets/Core_Skills/Html.svg",
         "name": "HTML5",
         "desc": "Estrutura semântica e acessível para páginas web"
     },
     {
-        "icon": "../../public/assets/Core_Skills/Css3.svg",
+        "icon": "/assets/Core_Skills/Css3.svg",
         "name": "Css3",
         "desc": "Estilização moderna e layouts responsivos"
     },
     {
-        "icon": "../../public/assets/Core_Skills/Git.svg",
+        "icon": "/assets/Core_Skills/Git.svg",
         "name": "Git",
         "desc": "Versionamento e organização do código"
     },
     {
-        "icon": "../../public/assets/Core_Skills/Github.svg",
+        "icon": "/assets/Core_Skills/Github.svg",
         "name": "Github",
         "desc": "Hospedagem e colaboração em projetos"
     },
     {
-        "icon": "../../public/assets/Core_Skills/Vite.svg",
+        "icon": "/assets/Core_Skills/Vite.svg",
         "name": "Vite",
         "desc": "Ambiente de desenvolvimento rápido e moderno"
     },
     {
-        "icon": "../../public/assets/Core_Skills/Npm.svg",
+        "icon": "/assets/Core_Skills/Npm.svg",
         "name": "npm",
         "desc": "Gerenciador de pacotes do ecossistema JavaScript"
     },
     {
-        "icon": "../../public/assets/Core_Skills/Yarn.svg",
+        "icon": "/assets/Core_Skills/Yarn.svg",
         "name": "Yarn",
         "desc": "Gerenciador de pacotes rápido e eficiente"
     }

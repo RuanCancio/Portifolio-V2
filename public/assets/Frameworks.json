@@ -1,49 +1,49 @@
 [
      {
-        "icon": "../../public/assets/Conhecimentos/Nodejs.svg",
+        "icon": "/assets/Conhecimentos/Nodejs.svg",
         "name": "Node.js",
         "desc": "Execução de JavaScript no backend"
     },
     {
-        "icon": "../../public/assets/Conhecimentos/TypeScript.svg",
+        "icon": "/assets/Conhecimentos/TypeScript.svg",
         "name": "TypeScript",
         "desc": "JavaScript tipado para código mais seguro"
     },
 
     {
-        "icon": "../../public/assets/Conhecimentos/Nextjs.svg",
+        "icon": "/assets/Conhecimentos/Nextjs.svg",
         "name": "Nextjs",
         "desc": "Framework React com foco em performance e SEO"
     },
 
     {
-        "icon": "../../public/assets/Conhecimentos/Figma.svg",
+        "icon": "/assets/Conhecimentos/Figma.svg",
         "name": "Figma",
         "desc": "Leitura e aplicação de layouts de UI/UX"
     },
 
     {
-        "icon": "../../public/assets/Conhecimentos/TailWind-Css.svg",
+        "icon": "/assets/Conhecimentos/TailWind-Css.svg",
         "name": "Tailwind CSS",
         "desc": "Estilização rápida com classes utilitárias"
     },
     {
-        "icon": "../../public/assets/Conhecimentos/Mongodb.svg",
+        "icon": "/assets/Conhecimentos/Mongodb.svg",
         "name": "MongoDB",
         "desc": "Banco de dados NoSQL flexível e escalável"
     },
     {
-        "icon": "../../public/assets/Conhecimentos/MySQL.svg",
+        "icon": "/assets/Conhecimentos/MySQL.svg",
         "name": "MySQL",
         "desc": "Banco de dados relacional baseado em SQL"
     },
     {
-        "icon": "../../public/assets/Conhecimentos/ChatGPT.svg",
+        "icon": "/assets/Conhecimentos/ChatGPT.svg",
         "name": "ChatGPT",
         "desc": "Apoio na resolução de problemas, aprendizado e produtividade"
     },
     {
-        "icon": "../../public/assets/Conhecimentos/Gemini.svg",
+        "icon": "/assets/Conhecimentos/Gemini.svg",
         "name": "Gemini",
         "desc": "Auxílio em pesquisa e geração de ideias"
     }
