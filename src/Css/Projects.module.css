@@ -65,7 +65,7 @@
     margin: 1rem auto;
     color: white;
     width: 80%;
-    height: 40%;
+    max-height: 40%;
     background-image: linear-gradient(45deg, #26067eb0, #6423cc79);
     border-radius: 10px;
     border: 1px solid rgba(245, 114, 250, 0.301);
@@ -143,4 +143,16 @@
     }
 
 
+}
+
+@media screen and (min-width: 1024px) {
+    .project_sec {
+        max-width: 40%;
+    }
+
+    .btn_filters {
+        & button {
+            width: 10%;
+        }
+    }
 }

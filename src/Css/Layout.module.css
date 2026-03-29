@@ -66,10 +66,12 @@
     }
 }
 
+/*Home*/
+
 .home {
     width: 100vw;
-    height: 100vh;
     padding-top: 5rem;
+    padding-bottom: 5rem;
     background-image: radial-gradient(circle at top, #1b2b5a, #020617);
 
     & .ruan {
@@ -129,6 +131,7 @@
     }
 }
 
+/*About me*/
 section.about_me {
     width: 100vw;
     color: white;
@@ -154,10 +157,11 @@ section.about_me {
 
 }
 
+/*Section Technologic*/
 .sec_tec {
     width: 100vw;
     background-image: radial-gradient(circle at top, #213369, #020617);
-    height: 100vh;
+    padding-bottom: 5rem;
     color: white;
 
     & .sec_items {
@@ -182,6 +186,7 @@ section.about_me {
 
 }
 
+/*My projects*/
 .my_projects {
     width: 100vw;
     height: 100vh;
@@ -205,6 +210,7 @@ section.about_me {
     height: 100vh;
     background-image: radial-gradient(circle at top, #1c2d5e, #020617);
     padding-top: 10%;
+    padding-bottom: 47rem;
 }
 
 & h2 {
@@ -220,6 +226,7 @@ section.about_me {
     max-width: 80%;
     height: 30%;
     border-radius: 15px;
+    padding-bottom: 15rem;
 }
 
 
@@ -236,8 +243,13 @@ section.about_me {
     }
 
     .home {
+        height: 100vh;
         & .ruan {
             width: 25rem;
         }
+    }
+
+    .sec_tec {
+        height: 100vh;
     }
 }

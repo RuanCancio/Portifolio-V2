@@ -1,4 +1,4 @@
-import Ruan from "../assets/1080.jpg"
+import Ruan from "../assets/icon_me.jpg"
 import TypingInput from "../components/TypingInput.jsx"
 import Styles from "../Css/Layout.module.css"
 import GitIcon from "../assets/Github.svg"
@@ -24,7 +24,7 @@ const Home = () => {
                         <a href="https://www.instagram.com/cancioruan/" target="_blank"><img src={InstaIcon} alt="Meu Instagram" /></a>
                         <a href="https://www.linkedin.com/in/ruancancio/" target="_blank"><img src={LinkedIcon} alt="Meu LinkedIn" /></a>
                     </div>
-                    <div className={Styles.btn_cv}><a href="/assets/Ruan_Cancio_Desenvolvedor_Junior.pdf" download>Baixar Currículo</a></div>
+                    <div className={Styles.btn_cv}><a href="/assets/Ruan_Barata_Cancio_Desenvolvedor_FullStack.pdf" download>Baixar Currículo</a></div>
                 </section>
             </Reveal>
             <Reveal>

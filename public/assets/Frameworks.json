@@ -1,31 +1,8 @@
 [
-     {
-        "icon": "/assets/Conhecimentos/Nodejs.svg",
-        "name": "Node.js",
-        "desc": "Execução de JavaScript no backend"
-    },
-    {
-        "icon": "/assets/Conhecimentos/TypeScript.svg",
-        "name": "TypeScript",
-        "desc": "JavaScript tipado para código mais seguro"
-    },
-
-    {
-        "icon": "/assets/Conhecimentos/Nextjs.svg",
-        "name": "Nextjs",
-        "desc": "Framework React com foco em performance e SEO"
-    },
-
     {
         "icon": "/assets/Conhecimentos/Figma.svg",
         "name": "Figma",
         "desc": "Leitura e aplicação de layouts de UI/UX"
-    },
-
-    {
-        "icon": "/assets/Conhecimentos/TailWind-Css.svg",
-        "name": "Tailwind CSS",
-        "desc": "Estilização rápida com classes utilitárias"
     },
     {
         "icon": "/assets/Conhecimentos/Mongodb.svg",

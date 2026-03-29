@@ -48,5 +48,27 @@
         "icon": "/assets/Core_Skills/Yarn.svg",
         "name": "Yarn",
         "desc": "Gerenciador de pacotes rápido e eficiente"
+    },
+    {
+        "icon": "/assets/Core_Skills/Nodejs.svg",
+        "name": "Node.js",
+        "desc": "Execução de JavaScript no backend"
+    },
+    {
+        "icon": "/assets/Core_Skills/TypeScript.svg",
+        "name": "TypeScript",
+        "desc": "JavaScript tipado para código mais seguro"
+    },
+
+    {
+        "icon": "/assets/Core_Skills/Nextjs.svg",
+        "name": "Nextjs",
+        "desc": "Framework React com foco em performance e SEO"
+    },
+    {
+        "icon": "/assets/Core_Skills/TailWind-Css.svg",
+        "name": "Tailwind CSS",
+        "desc": "Estilização rápida com classes utilitárias"
     }
+
 ]

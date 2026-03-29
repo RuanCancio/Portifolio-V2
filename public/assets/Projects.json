@@ -46,5 +46,29 @@
     "demo": "https://ruancancio.github.io/Huddle-landing-page-with-a-single-introductory-section/",
     "icon": "/assets/projects/Github.svg",
     "icon_link": "/assets/projects/Link.svg"
+  },
+  {
+    "id": 4,
+    "image": "/assets/projects/multi_step_form.png",
+    "title": "Multi Step Form",
+    "description": "Sistema de formulário com etapas",
+    "category": "ui",
+    "stack": ["Nextjs", "Tailwind", "TypeScript"],
+    "github": "https://github.com/RuanCancio/Multi-Step-Form",
+    "demo": "https://multi-step-form-five-lilac-90.vercel.app/",
+    "icon": "/assets/projects/Github.svg",
+    "icon_link": "/assets/projects/Link.svg"
+  },
+  {
+    "id": 5,
+    "image": "/assets/projects/Extensions_Manager.png",
+    "title": "Extensions Manager(Debug)",
+    "description": "Sistema de gerenciamento de extensões",
+    "category": "front-end",
+    "stack": ["Nextjs", "Tailwind", "TypeScript"],
+    "github": "https://github.com/RuanCancio/Browser-Extension-Manager",
+    "demo": "https://browser-extension-manager-a75bbzmlo-ruancancio.vercel.app/",
+    "icon": "/assets/projects/Github.svg",
+    "icon_link": "/assets/projects/Link.svg"
   }
 ]
