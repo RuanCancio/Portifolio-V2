@@ -43,13 +43,13 @@ const TechIcon = () => {
 
             <div>
                 <TypingText
-                    text="My Technologys"
+                    text="Technologys"
                     loop={1}
                     speed={90} />
                 <p>Utilizadas no dia a dia:</p>
                 <Swiper
                     modules={[Autoplay, Pagination]}
-                    spaceBetween={30}
+                    spaceBetween={50}
                     slidesPerView={1}
                     loop={Languages.length > 3}
                     speed={3000}
@@ -59,37 +59,6 @@ const TechIcon = () => {
                     }}
                 >
                     {Languages.map((item, key) => (
-                        <SwiperSlide key={key}>
-                            <div className={Styles.icon}>
-                                <img src={item.icon} alt={item.name} />
-                                <h3>{item.name}</h3>
-                                <p>{item.desc}</p>
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-            </div>
-
-
-
-            <div>
-                <TypingText
-                    text="Complemento"
-                    loop={1}
-                    speed={90} />
-                <p>Em desenvolvimento:</p>
-                <Swiper
-                    modules={[Autoplay, Pagination]}
-                    spaceBetween={30}
-                    slidesPerView={1}
-                    loop={framework.length > 1 }
-                    speed={3000}
-                    autoplay={{
-                        delay: 0,
-                        disableOnInteraction: false,
-                    }}
-                >
-                    {framework.map((item, key) => (
                         <SwiperSlide key={key}>
                             <div className={Styles.icon}>
                                 <img src={item.icon} alt={item.name} />

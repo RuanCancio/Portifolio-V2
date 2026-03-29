@@ -141,6 +141,7 @@
 
 .home {
     width: 100vw;
+    height: 100vh;
     padding-top: 5rem;
     padding-bottom: 5rem;
     background: linear-gradient(135deg,
@@ -325,17 +326,21 @@ section.about_me {
 
     section.about_me {
 
-       & .about_itens {
+        & .about_itens {
 
-        & h2 {
-            font-size: 2.5rem;
+            & h2 {
+                font-size: 2.5rem;
+            }
+
+            & p {
+                font-size: 2rem;
+            }
         }
 
-        & p {
-            font-size: 2rem;
-        }
     }
 
+    .isVisibleTech {
+        display: none;
     }
 }
 

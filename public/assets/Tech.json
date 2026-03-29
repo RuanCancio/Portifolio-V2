@@ -1,74 +1,134 @@
 [
     {
+        "id": 1,
         "icon": "/assets/Core_Skills/React.svg",
         "name": "React",
-        "desc": "Criação de interfaces dinâmicas e componentes reutilizáveis"
+        "desc": "Creating dynamics interfaces and reusable components"
     },
     {
+        "id": 2,
         "icon": "/assets/Core_Skills/JavaScript.svg",
         "name": "JavaScript",
-        "desc": "Lógica e interatividade para aplicações web modernas"
+        "desc": "Logic and interactivity for web modern applications"
     },
     {
+        "id": 3,
         "icon": "/assets/Core_Skills/Express.svg",
         "name": "Express",
-        "desc": "Front-end forte com base em back-end"
+        "desc": "Back-end Framework"
     },
     {
+        "id": 4,
         "icon": "/assets/Core_Skills/Html.svg",
         "name": "HTML5",
-        "desc": "Estrutura semântica e acessível para páginas web"
+        "desc": "Use semantic HTML to structure accessible web pages"
     },
     {
+        "id": 5,
         "icon": "/assets/Core_Skills/Css3.svg",
         "name": "Css3",
-        "desc": "Estilização moderna e layouts responsivos"
+        "desc": "Modern styling and responsive layouts"
     },
     {
+        "id": 6,
         "icon": "/assets/Core_Skills/Git.svg",
         "name": "Git",
-        "desc": "Versionamento e organização do código"
+        "desc": "Code versioning and organization"
     },
     {
+        "id": 7,
         "icon": "/assets/Core_Skills/Github.svg",
         "name": "Github",
-        "desc": "Hospedagem e colaboração em projetos"
+        "desc": "Hosting and collaboration on projects"
     },
     {
+        "id": 8,
         "icon": "/assets/Core_Skills/Vite.svg",
         "name": "Vite",
-        "desc": "Ambiente de desenvolvimento rápido e moderno"
+        "desc": "Rapid and modern development environment"
     },
     {
+        "id": 9,
         "icon": "/assets/Core_Skills/Npm.svg",
         "name": "npm",
-        "desc": "Gerenciador de pacotes do ecossistema JavaScript"
+        "desc": "JavaScript Ecosystem Package Manager"
     },
     {
+        "id": 10,
         "icon": "/assets/Core_Skills/Yarn.svg",
         "name": "Yarn",
-        "desc": "Gerenciador de pacotes rápido e eficiente"
+        "desc": "Fast and efficient package manager"
     },
     {
+        "id": 11,
         "icon": "/assets/Core_Skills/Nodejs.svg",
         "name": "Node.js",
-        "desc": "Execução de JavaScript no backend"
+        "desc": "JavaScript execution on the backend"
     },
     {
+        "id": 12,
         "icon": "/assets/Core_Skills/TypeScript.svg",
         "name": "TypeScript",
-        "desc": "JavaScript tipado para código mais seguro"
+        "desc": "Typed JavaScript for Safer Code"
     },
-
     {
+        "id": 13,
         "icon": "/assets/Core_Skills/Nextjs.svg",
         "name": "Nextjs",
-        "desc": "Framework React com foco em performance e SEO"
+        "desc": "React Framework with a Focus on Performance and SEO"
     },
     {
+        "id": 14,
         "icon": "/assets/Core_Skills/TailWind-Css.svg",
         "name": "Tailwind CSS",
-        "desc": "Estilização rápida com classes utilitárias"
+        "desc": "Quick styling with utility classes"
+    },
+    {
+        "id": 15,
+        "icon": "/assets/Core_Skills/Figma.svg",
+        "name": "Figma",
+        "desc": "Reading and applying UI/UX layouts"
+    },
+    {
+        "id": 16,
+        "icon": "/assets/Core_Skills/Mongodb.svg",
+        "name": "MongoDB",
+        "desc": "Flexible and scalable NoSQL database"
+    },
+    {
+        "id": 17,
+        "icon": "/assets/Core_Skills/MySQL.svg",
+        "name": "MySQL",
+        "desc": "SQL-based relational database"
+    },
+    {
+        "id": 18,
+        "icon": "/assets/Core_Skills/ChatGPT.svg",
+        "name": "ChatGPT",
+        "desc": "Support in problem solving, learning and productivity"
+    },
+    {
+        "id": 19,
+        "icon": "/assets/Core_Skills/Gemini.svg",
+        "name": "Gemini",
+        "desc": "Aid in research and idea generation"
+    },
+    {
+        "id": 20,
+        "icon": "/assets/Core_Skills/aws.svg",
+        "name": "AWS",
+        "desc": "Cloud computing services and scalable infrastructure"
+    },
+    {
+        "id": 21,
+        "icon": "/assets/Core_Skills/docker.svg",
+        "name": "Docker",
+        "desc": "Containerization for consistent development and deployment"
+    },
+    {
+        "id": 22,
+        "icon": "/assets/Core_Skills/vercel.svg",
+        "name": "Vercel",
+        "desc": "Optimized hosting and deployment for frontend frameworks"
     }
-
 ]

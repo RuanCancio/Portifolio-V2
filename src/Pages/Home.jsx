@@ -10,6 +10,7 @@ import Projects from "../components/Projects.jsx"
 import Reveal from "../components/Reveal.jsx"
 import Contact_item from "../components/Contact_item.jsx"
 import ContactForm from "../components/ContactForm.jsx"
+import TechnologycsOnPc from "../components/TechnologycsOnPC.jsx"
 
 const Home = () => {
 
@@ -48,7 +49,8 @@ const Home = () => {
                 <section id="technology" className={Styles.sec_tec}>
                     <section className={Styles.tec_icons}>
                         <div className={Styles.tec_center}>
-                            <TechIcon />
+                            <div className={Styles.isVisibleTech}><TechIcon/></div>
+                            <TechnologycsOnPc/>
                         </div>
                     </section>
                 </section>
