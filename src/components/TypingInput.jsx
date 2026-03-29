@@ -7,14 +7,14 @@ const TypingInput = () => {
   const [pronto, setPronto] = useState(false)
 
   const [name] = useTypewriter({
-    words: ["Desenvolvedor Front-end"],
+    words: ["Software Engineer"],
     loop: 1,
     typeSpeed: 80,
     onLoopDone: () => setDone(true)
   });
 
   const [desc] = useTypewriter({
-    words: ["Transformando ideias em código"],
+    words: ["Turning your ideas into code!"],
     loop: 1,
     typeSpeed: 90,
     onLoopDone: () => setPronto(true)
@@ -23,12 +23,12 @@ const TypingInput = () => {
   return (
     <div className={Styles.typing_input}>
     <h1>
-      {done ? "Desenvolvedor Front-end" : name}
+      {done ? "Software Engineer" : name}
       {!done && <Cursor cursorStyle="|" />}
     </h1>
     <br />
     <h2>
-        {pronto ? "Transformando ideias em código" : desc}
+        {pronto ? "Turning your ideas into code!" : desc}
         {!pronto && <Cursor cursorStyle="|" />}
     </h2>
     </div>

@@ -43,7 +43,7 @@ const TechIcon = () => {
 
             <div>
                 <TypingText
-                    text="Core Stack"
+                    text="My Technologys"
                     loop={1}
                     speed={90} />
                 <p>Utilizadas no dia a dia:</p>

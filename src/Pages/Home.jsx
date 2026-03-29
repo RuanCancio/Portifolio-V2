@@ -17,35 +17,30 @@ const Home = () => {
         <>
             <Reveal>
                 <section className={`${Styles.home}`} id="home">
-                    <img src={Ruan} alt="Ruan" className={Styles.ruan} />
-                    <TypingInput />
-                    <div className={Styles.icons_redes}>
-                        <a href="https://github.com/RuanCancio" target="_blank"><img src={GitIcon} alt="Meu Github" /></a>
-                        <a href="https://www.instagram.com/cancioruan/" target="_blank"><img src={InstaIcon} alt="Meu Instagram" /></a>
-                        <a href="https://www.linkedin.com/in/ruancancio/" target="_blank"><img src={LinkedIcon} alt="Meu LinkedIn" /></a>
+                    <div><img src={Ruan} alt="Ruan" className={Styles.ruan} /></div>
+                    <div>
+                        <TypingInput />
+                        <div className={Styles.icons_redes}>
+                            <a href="https://github.com/RuanCancio" target="_blank"><img src={GitIcon} alt="Meu Github" /></a>
+                            <a href="https://www.instagram.com/cancioruan/" target="_blank"><img src={InstaIcon} alt="Meu Instagram" /></a>
+                            <a href="https://www.linkedin.com/in/ruancancio/" target="_blank"><img src={LinkedIcon} alt="Meu LinkedIn" /></a>
+                        </div>
                     </div>
-                    <div className={Styles.btn_cv}><a href="/assets/Ruan_Barata_Cancio_Desenvolvedor_FullStack.pdf" download>Baixar Currículo</a></div>
                 </section>
             </Reveal>
             <Reveal>
                 <section className={Styles.about_me} id="about_me">
                     <section className={Styles.about_itens}>
                         <TypingText
-                            text="Sobre mim"
+                            text="About me"
                             loop={1}
                             speed={90} />
                         <p>
-                            Olá! Eu sou <strong>Ruan</strong>, desenvolvedor apaixonado por tecnologia e programação.
-                            Tenho experiência em criar projetos modernos e funcionais, explorando principalmente <strong>React, JavaScript e Desenvolvimento web</strong>.
+                            Hi! My name is Ruan. I'm a developer passionate about technology and programming. <br />
+                            I have experience creating modern projects and features, with a focus on Nextjs, JavaScript/TypeScript, and FullStack Development. <br />
+                            By combining clean code with intuitive design, I am to build applications that don't just work — they delight the user. <br />
+                            In my portfolio, you'll find projects that showcase my creativity, dedication, and attention to detail. <br />
                         </p>
-                        <p>
-                            Unindo código limpo e design intuitivo, foco em criar aplicações que não apenas funcionam, mas encantam o usuário.
-                        </p>
-                        <p>
-                            Aqui no meu portfólio, você vai encontrar projetos que mostram minha criatividade, dedicação e atenção aos detalhes.
-                        </p>
-                        <div className={Styles.carrossel}>
-                        </div>
                     </section>
                 </section>
             </Reveal>
@@ -75,7 +70,7 @@ const Home = () => {
                         speed={90} />
                     <Contact_item />
                     <section className={Styles.invite_me}>
-                        <ContactForm/>
+                        <ContactForm />
                     </section>
                 </section>
             </Reveal>

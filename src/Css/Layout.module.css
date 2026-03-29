@@ -4,14 +4,14 @@
 }
 
 :root {
-    --bg: radial-gradient(circle at top, #0b132b, #020617);
-    --bg-2: radial-gradient(circle at top, #0b132b, #020617);
-    --cards: #111827;
-    --texts: #E5E7EB;
-    --secondary-texts: #E5E7EB;
-    --emphasis: #111827;
-    --hover: #EF4444;
-    --glow: rgba(220, 38, 38, 0.4);
+    --bg-dark: #0b0217;
+    --bg-secondary: #120426;
+    --purple-dark: #1a0633;
+    --purple-primary: #6c2bd9;
+    --purple-secondary: #8b5cf6;
+    --purple-glow: #a855f7;
+    --text-light: #ffffff;
+    --text-soft: #cbd5e1;
     --font-padrao: Roboto_Condensed;
 }
 
@@ -34,6 +34,76 @@
         width: 4rem;
     }
 
+
+
+}
+
+.pokehome {
+    width: 8rem;
+    transform: scaleX(-1)
+}
+
+.isVisibleOnMoba {
+    display: block;
+}
+
+.isVisibleOnPc {
+    display: none;
+
+}
+
+.navbarOnPc {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    & .pOne {
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
+
+    }
+
+    & .pTwo {
+        display: flex;
+        gap: 3rem;
+        padding-right: 4rem;
+
+        & a {
+            padding: 10px;
+        }
+
+        & a:hover {
+            border-bottom: 1px solid var(--purple-glow);
+        }
+    }
+
+
+    & a {
+        color: var(--text-light);
+        font-size: 1.5rem;
+        transition: 0.5s ease;
+    }
+
+    & a:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+.btn_cv {
+    background: linear-gradient(90deg,
+            #6c2bd9,
+            #a855f7);
+
+    border-radius: 10px;
+}
+
+.btn_cv:hover {
+    box-shadow: 5px 5px 20px var(--purple-glow);
 }
 
 .links {
@@ -63,6 +133,7 @@
     & a:hover {
         border-bottom: 1px solid var(--secondary-texts);
 
+
     }
 }
 
@@ -72,7 +143,12 @@
     width: 100vw;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-image: radial-gradient(circle at top, #1b2b5a, #020617);
+    background: linear-gradient(135deg,
+            #0b0217 0%,
+            #120426 40%,
+            #1a0633 70%,
+            #2a0a4a 100%);
+    color: var(--text-soft);
 
     & .ruan {
         display: flex;
@@ -81,6 +157,11 @@
         margin: auto;
         border: 4px solid rgba(24, 9, 109, 0.363);
         outline: 2px solid rgba(255, 255, 255, 0.534);
+        transition: 0.5s ease;
+    }
+
+    & .ruan:hover {
+        box-shadow: 8px 5px 50px var(--purple-glow);
     }
 
 }
@@ -90,8 +171,14 @@
     color: var(--secondary-texts);
     font-family: var(--font-padrao);
     text-align: center;
-    margin-top: 20%;
-    margin-bottom: 1rem;
+    margin-top: 8%;
+
+    & h2 {
+        color: var(--text-soft);
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
 }
 
 .icons_redes {
@@ -107,27 +194,6 @@
     & img:hover {
         padding-bottom: 4px;
         border-bottom: 1px solid white;
-    }
-}
-
-.btn_cv {
-    margin: 2rem;
-    text-align: center;
-
-    & a {
-        font-family: var(--font-padrao);
-        font-size: 1.2rem;
-        border: 1px solid #ffffff;
-        padding: 0.5rem;
-        border-radius: 5px;
-        background-color: white;
-        text-decoration: none;
-    }
-
-    & a:hover {
-        border: 1px solid var(--hover);
-        color: rgb(14, 13, 13);
-        background-color: rgba(255, 255, 255, 0.664);
     }
 }
 
@@ -149,7 +215,10 @@ section.about_me {
         }
 
         & p {
-            margin: 1rem 3rem;
+            margin-top: 1rem;
+            text-align: center;
+            font-size: 1rem;
+            padding: 10px;
             font-family: Arial, Helvetica, sans-serif;
             text-indent: 1rem;
         }
@@ -160,7 +229,11 @@ section.about_me {
 /*Section Technologic*/
 .sec_tec {
     width: 100vw;
-    background-image: radial-gradient(circle at top, #213369, #020617);
+    background-image: linear-gradient(135deg,
+            #0b0217 0%,
+            #120426 40%,
+            #1a0633 70%,
+            #2a0a4a 100%);
     padding-bottom: 5rem;
     color: white;
 
@@ -208,16 +281,13 @@ section.about_me {
     align-items: center;
     gap: 3rem;
     height: 100vh;
-    background-image: radial-gradient(circle at top, #1c2d5e, #020617);
+    background-image: linear-gradient(135deg,
+            #0b0217 0%,
+            #120426 40%,
+            #1a0633 70%,
+            #2a0a4a 100%);
     padding-top: 10%;
     padding-bottom: 47rem;
-}
-
-& h2 {
-    color: white;
-    font-size: 2rem;
-    padding: 20px 0px;
-    text-align: center;
 }
 
 & .invite_me {
@@ -232,8 +302,40 @@ section.about_me {
 
 
 @media screen and (min-width: 768px) {
+
+    .home {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20rem;
+        align-items: center;
+        justify-content: center;
+    }
+
     .typing_input {
         margin-top: 10%;
+    }
+
+    .isVisibleOnMoba {
+        display: none;
+    }
+
+    .isVisibleOnPc {
+        display: block;
+    }
+
+    section.about_me {
+
+       & .about_itens {
+
+        & h2 {
+            font-size: 2.5rem;
+        }
+
+        & p {
+            font-size: 2rem;
+        }
+    }
+
     }
 }
 
@@ -244,6 +346,7 @@ section.about_me {
 
     .home {
         height: 100vh;
+
         & .ruan {
             width: 25rem;
         }
