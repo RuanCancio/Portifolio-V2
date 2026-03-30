@@ -271,11 +271,12 @@ section.about_me {
         color: white;
         font-size: 2rem;
         text-align: center;
-        padding-top: 15%;
+        padding-top: 10%;
     }
 }
 
 .Contact_me {
+    text-align: center;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -291,6 +292,7 @@ section.about_me {
     padding-bottom: 47rem;
 }
 
+
 & .invite_me {
     background-image: radial-gradient(circle at top, #7516c4, #020617);
     border: 2px solid rgba(245, 245, 220, 0.13);
@@ -299,8 +301,6 @@ section.about_me {
     border-radius: 15px;
     padding-bottom: 15rem;
 }
-
-
 
 @media screen and (min-width: 768px) {
 

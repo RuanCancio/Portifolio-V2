@@ -5,13 +5,16 @@ import TypingText from './TypingText';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mbdknzvy");
   if (state.succeeded) {
-      return <p className={Styles.submitForm}>Obrigado por Enviar!</p>;
+      return <div className={Styles.submitForm}>
+        <p>Thanks for Submitting!</p>
+        <img src="../src/assets/Mew_Submit.png" alt="Mew" />
+      </div>;
   }
   return (
     <form onSubmit={handleSubmit} className={Styles.form}>
       <label htmlFor="email">
         <TypingText
-        text="Escreva para mim:"
+        text="Write for me:"
         loop={1}
         speed={90}
         />
@@ -30,7 +33,7 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
-        placeholder='Escreva...'
+        placeholder='Write...'
       />
       <ValidationError 
         prefix="Message" 

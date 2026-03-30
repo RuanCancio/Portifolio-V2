@@ -67,9 +67,9 @@ const Home = () => {
             <Reveal>
                 <section id="contact" className={Styles.Contact_me}>
                     <TypingText
-                        text="Vamos tirar sua ideia do papel? Escolha sua rede favorita."
+                        text="Shall we get your idea off the ground? Choose your favorite network."
                         loop={1}
-                        speed={90} />
+                        speed={90} className={Styles.textTitle} />
                     <Contact_item />
                     <section className={Styles.invite_me}>
                         <ContactForm />

@@ -7,20 +7,24 @@
 
     & .contact_icon {
         display: flex;
-        background-color: rgb(106, 23, 201);
+         background: linear-gradient(
+    135deg,
+    #120426,
+    #1a0633
+  );
         width: 18rem;
+        justify-content: center;
+        align-items: center;
         padding: 10px;
         border-radius: 15px;
-        border: 2px solid rgba(81, 176, 253, 0.322);
+       box-shadow: 0 0 30px rgba(169, 85, 247, 0.199);
         transition: 0.5s ease;
         gap: 7px;
-
-        & h1 {
-            color: white;
-        }
+        transition: 0.5s ease;
 
         & h2 {
             font-size: 1.3rem;
+            color: white;
         }
 
         & img {
@@ -31,9 +35,12 @@
 
 .contact_icon:hover {
     transform: scale(1.1);
-    box-shadow: 5px 5px 20px rgba(31, 136, 255, 0.596);
+    background: radial-gradient(circle at top right,
+            rgba(168, 85, 247, 0.25),
+            transparent 60%);
+    box-shadow: 0 0 30px rgba(168, 85, 247, 0.3);
 }
 
- a {
+a {
     text-decoration: none;
 }

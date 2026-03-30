@@ -27,8 +27,8 @@ const TechnologycsOnPc = () => {
                 const res = await fetch("/assets/Tech.json")
                 const data = await res.json()
                 setIsUsableToday(data)
-            } catch (err) {
-                console.log("Erro ao carregar tecnologias")
+            } catch (error) {
+                console.log({error: error.message})
             }
         }
         fetchUsableToday()

@@ -67,7 +67,7 @@ const Projects = () => {
             </div>
             <section className={`${Styles.projects_order} ${prevAnimation ? Styles.fade_prev : ""} ${nextAnimation ? Styles.fade_next : ""}`}>
                 <div className={Styles.project_sec}>
-                    <Link to={filteredProjects[position]?.demo}><img src={filteredProjects[position]?.image} alt={filteredProjects[position]?.title} /></Link>
+                    <Link to={filteredProjects[position]?.demo}><img src={filteredProjects[position]?.image} alt={filteredProjects[position]?.title}  className={Styles.imageProject}/></Link>
                     <h1>{filteredProjects[position]?.title}</h1>
                     <p>{filteredProjects[position]?.description}</p>
                     <div className={Styles.stacks}>
