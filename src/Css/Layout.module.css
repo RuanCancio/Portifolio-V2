@@ -278,6 +278,7 @@ section.about_me {
 .Contact_me {
     text-align: center;
     width: 100vw;
+    color: var(--text-light);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,7 +290,7 @@ section.about_me {
             #1a0633 70%,
             #2a0a4a 100%);
     padding-top: 10%;
-    padding-bottom: 47rem;
+    padding-bottom: 53rem;
 }
 
 
@@ -359,5 +360,9 @@ section.about_me {
 
     .sec_tec {
         height: 100vh;
+    }
+
+    .Contact_me {
+         padding-bottom: 50rem;
     }
 }

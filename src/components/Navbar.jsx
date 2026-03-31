@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className={Styles.isVisibleOnPc}>
                 <nav className={Styles.navbarOnPc}>
                     <div className={Styles.pOne}>
-                        <Link smooth to="#"><img src="../src/assets/pokemon_home.png" alt="pokemon" className={Styles.pokehome}/></Link>
+                        <Link smooth to="#"><img src="/src/assets/pokemon_home.png" alt="pokemon" className={Styles.pokehome}/></Link>
                     </div>
                         <div className={Styles.pTwo}>
                             <Link smooth to="#about_me">About me</Link>

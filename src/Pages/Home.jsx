@@ -58,7 +58,7 @@ const Home = () => {
             <Reveal>
                 <section id="projects" className={Styles.my_projects}>
                     <TypingText
-                        text="Meus Projetos"
+                        text="My Projects"
                         loop={1}
                         speed={90} />
                     <Projects />
