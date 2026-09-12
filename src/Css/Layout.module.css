@@ -206,13 +206,32 @@ section.about_me {
     background-attachment: fixed;
     height: 100vh;
 
+
     & .about_itens {
-        padding-top: 20%;
+        padding-top: 10%;
+
+        & .about_text {
+            padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        & img {
+            width: 15rem;
+            border-radius: 100%;
+            border: 4px solid rgba(24, 9, 109, 0.363);
+            outline: 2px solid rgba(255, 255, 255, 0.534);
+            transition: 0.5s ease;
+        }
+
+    }
 
 
         & h2 {
             text-align: center;
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
 
         & p {
@@ -328,6 +347,17 @@ section.about_me {
     section.about_me {
 
         & .about_itens {
+
+            
+
+            & .about_text {
+                flex-direction: row;
+                
+                & img {
+                    display: block;
+                    width: 25rem;
+                }
+            }
 
             & h2 {
                 font-size: 2.5rem;

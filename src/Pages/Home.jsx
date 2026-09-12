@@ -36,12 +36,15 @@ const Home = () => {
                             text="About me"
                             loop={1}
                             speed={90} />
-                        <p>
-                            Hi! My name is Ruan. I'm a developer passionate about technology and programming. <br />
-                            I have experience creating modern projects and features, with a focus on Nextjs, JavaScript/TypeScript, and FullStack Development. <br />
-                            By combining clean code with intuitive design, I am to build applications that don't just work — they delight the user. <br />
-                            In my portfolio, you'll find projects that showcase my creativity, dedication, and attention to detail. <br />
-                        </p>
+                <div className={Styles.about_text}>
+                    <img src="./assets/snorlax.png" alt="mew" />
+                            <p>
+                                Hi! My name is Ruan. I'm a developer passionate about technology and programming. <br />
+                                I have experience creating modern projects and features, with a focus on Nextjs, JavaScript/TypeScript, and FullStack Development. <br />
+                                By combining clean code with intuitive design, I am to build applications that don't just work — they delight the user. <br />
+                                In my portfolio, you'll find projects that showcase my creativity, dedication, and attention to detail. <br />
+                            </p>
+                </div>
                     </section>
                 </section>
             </Reveal>

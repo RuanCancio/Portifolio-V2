@@ -70,5 +70,17 @@
     "demo": "https://browser-extension-manager-a75bbzmlo-ruancancio.vercel.app/",
     "icon": "/assets/projects/Github.svg",
     "icon_link": "/assets/projects/Link.svg"
+  },
+  {
+    "id": 6,
+    "image": "/assets/projects/SayIt.png",
+    "title": "SayIt",
+    "description": "My personal AI desktop assistant, capable of performing assisting with tasks, answering questions, and providing information.",
+    "category": "back-end",
+    "stack": ["React", "Java", "JavaScript", "Spring Boot", "Rust"],
+    "github": "https://github.com/RuanCancio/sayit-backend",
+    "demo": "https://sayit-desktop.vercel.app/",
+    "icon": "/assets/projects/Github.svg",
+    "icon_link": "/assets/projects/Link.svg"
   }
 ]
